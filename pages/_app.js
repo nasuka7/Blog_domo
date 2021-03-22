@@ -7,12 +7,12 @@ function MyApp({ Component, pageProps }) {
       <nav>
         <ul>
           <li>
-            <Link hlef="/">
+            <Link href="/">
               <a>Home</a>
             </Link>
           </li>
           <li>
-            <Link hlef="/">
+            <Link href="/">
               <a>About</a>
             </Link>
           </li>
