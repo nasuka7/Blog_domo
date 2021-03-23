@@ -57,7 +57,7 @@ function BlogListItem({ slug, title, date, content }) {
         <div className="text-sm">
           {format(parseISO(date), 'MMMM do, uuu' )}
         </div>
-        <div>{content}</div>
+        <div>{content.substr(0,50)}</div>
       </div>
     </div>
   )
